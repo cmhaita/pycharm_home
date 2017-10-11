@@ -28,14 +28,14 @@ def UsePlatform():
     sysstr = platform.system()
     if (sysstr == "Windows"):
         # print ("Call Windows tasks")
-        cmdShell = '"C:\Program Files (x86)\NetSarang\Xshell 4\Xshell.exe"   C:\Users\scheng\AppData\Roaming\NetSarang\Xshell\Sessions\east40-it-pinHole-query.xsh'
+        #cmdShell = '"C:\Program Files (x86)\NetSarang\Xshell 4\Xshell.exe"   C:\Users\scheng\AppData\Roaming\NetSarang\Xshell\Sessions\east40-it-pinHole-query.xsh'
         # os.system(cmd)
         p = subprocess.Popen(cmdShell, shell=True)
         time.sleep(10)
         p.terminate()
     elif (sysstr == "Linuxi1"):
         # print ("Call Linux tasks")
-        cmdShell = '/root/AutoTestEnv/UCG_COMMON/TOOLS/auto_excute.sh /root/AutoTestEnv/AutoTestCaseRepo/UAG45/UAG45_SERVER_MODE/UDP/SIPP_REGISTER_MO_RTP_CALL_Pinhole_Query'
+        #cmdShell = '/root/AutoTestEnv/UCG_COMMON/TOOLS/auto_excute.sh /root/AutoTestEnv/AutoTestCaseRepo/UAG45/UAG45_SERVER_MODE/UDP/SIPP_REGISTER_MO_RTP_CALL_Pinhole_Query'
         p = subprocess.Popen(cmdShell, shell=True)
         time.sleep(10)
         p.terminate()
@@ -45,4 +45,4 @@ def UsePlatform():
 
 
 TestPlatform()
-UsePlatform()
+#UsePlatform()
