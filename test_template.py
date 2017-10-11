@@ -3,9 +3,9 @@
 
 """
 @version: ??
-@author: simon.cheng
+@author: simon cheng
 @license: Apache Licence 
-@contact: simon.cheng
+@contact: simon cheng
 @site: 
 @software: PyCharm Community Edition
 @file: test_template.py
@@ -17,7 +17,7 @@ def func():
     pass
 
 
-class Main():
+class Main:
     def __init__(self):
         pass
 
