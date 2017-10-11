@@ -5,7 +5,7 @@
 @version: ??
 @author: simon.cheng
 @license: Apache Licence 
-@contact: simon.cheng@mavenir.com
+@contact: simon.cheng
 @site: 
 @software: PyCharm Community Edition
 @file: test_template.py
